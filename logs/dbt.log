@@ -1,0 +1,27 @@
+
+
+============================== 2023-02-18 17:05:39.842223 | 748effac-4174-4c25-9cd7-319ccedc19e5 ==============================
+[0m17:05:39.842223 [info ] [MainThread]: Running with dbt=1.4.1
+[0m17:05:39.844200 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/pycno/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m17:05:39.844624 [debug] [MainThread]: Tracking: tracking
+[0m17:05:39.878206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108851d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1088750d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10887ad00>]}
+[0m17:05:51.668508 [debug] [MainThread]: Starter project path: /Users/pycno/.pyenv/versions/3.9.2/lib/python3.9/site-packages/dbt/include/starter_project
+[0m17:06:47.700476 [info ] [MainThread]: Profile fishy written to /Users/pycno/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:06:47.702964 [info ] [MainThread]: 
+Your new dbt project "fishy" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:06:47.703688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119ccac40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107cc4c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10884fd00>]}
+[0m17:06:47.704283 [debug] [MainThread]: Flushing usage events
